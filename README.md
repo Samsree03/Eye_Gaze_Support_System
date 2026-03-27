@@ -38,7 +38,7 @@ To run the complete integrated system:
 1.  Open Project_Notebook.ipynb
 2.  Run initial setup and model loading sections.
 3.  Scroll to: "Final Project Code: Blink and Gaze Detection with Respective Controls"
-4.  Execute all cells below this section sequentially.
+4.  Execute the cell.
 
 This section contains the fully integrated pipeline combining: - Blink detection - Gaze detection - Morse encoding logic - Control system output
 
