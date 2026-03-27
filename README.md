@@ -8,9 +8,12 @@ The Eye Gaze Support System is an AI-powered assistive solution designed to enab
 
 ## Project Structure
 
+```
 Eye_Gaze_Support_System/ 
 ├── backend/ 
-│ └── Project_Notebook.ipynb \# Main notebook containing full implementation
+│ └── Project_Notebook.ipynb
+
+```
 
 ## Notebook Execution Flow
 
@@ -20,12 +23,12 @@ Project_Notebook.ipynb
 
 The notebook contains the following major sections:
 
-1.  Inception Model Initialization and Test with Sample Image\
-2.  Live Model Testing\
-3.  Definition of Communication System -- Blink Detection\
-4.  Communication System with Live Video Testing\
-5.  Final Project Code: Blink and Gaze Detection with Respective Controls\
-6.  Final Project Code -- Video Testing\
+1.  Inception Model Initialization and Test with Sample Image
+2.  Live Model Testing
+3.  Definition of Communication System -- Blink Detection
+4.  Communication System with Live Video Testing
+5.  Final Project Code: Blink and Gaze Detection with Respective Controls
+6.  Final Project Code -- Video Testing
 7.  Final Project Code -- Image Inference
 
 ## How to Execute the Full System
@@ -43,15 +46,15 @@ This section contains the fully integrated pipeline combining: - Blink detection
 
 ### Gaze Detection Module
 
--   YOLOv8 for eye localization\
--   Inception-ResNet-v2 for gaze classification\
+-   YOLOv8 for eye localization
+-   Inception-ResNet-v2 for gaze classification
 -   Approximately 90% gaze accuracy
 
 Used for directional control and wheelchair navigation.
 
 ### Blink Detection Module
 
--   DETR for eye and face detection (approximately 95% accuracy)\
+-   DETR for eye and face detection (approximately 95% accuracy)
 -   Fine-tuned ResNet-50 for blink classification (approximately 99%
     accuracy)
 
@@ -65,27 +68,27 @@ Blink Logic: - Short blink → Dot (.) - Long blink → Dash (-)
 
 ## Technologies Used
 
--   Python\
--   OpenCV\
--   PyTorch\
--   YOLOv8\
--   DETR\
--   ResNet-50\
--   Inception-ResNet-v2\
+-   Python
+-   OpenCV
+-   PyTorch
+-   YOLOv8
+-   DETR
+-   ResNet-50
+-   Inception-ResNet-v2
 -   Jupyter Notebook
 
 ## Key Achievements
 
--   99% blink classification accuracy\
--   90% gaze detection accuracy\
--   Real-time integrated detection pipeline\
+-   99% blink classification accuracy
+-   90% gaze detection accuracy
+-   Real-time integrated detection pipeline
 -   Assistive communication using AI
 
 ## Applications
 
--   Assistive technology for paralyzed patients\
--   AI-powered wheelchair control\
--   Human-computer interaction research\
+-   Assistive technology for paralyzed patients
+-   AI-powered wheelchair control
+-   Human-computer interaction research
 -   Emergency communication systems
 
 ## Project Significance
